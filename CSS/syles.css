@@ -1,0 +1,111 @@
+*{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*todo lo que le sume al elemento se quedan por dentro*/
+    color: rgb(225, 225, 225);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    transition: .5s;
+}
+a:hover{
+    color: rgb(225, 225, 225);
+    font-size: 1.1rem;
+}
+header{
+    background-color: rgb(225, 13, 13);
+    color: rgb(225, 225, 225);
+    width: 1366px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+header img{
+    height: 95%;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(32, 32, 32);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15.25px 20px;
+    transition: .5s;
+}
+nav a:hover{
+    background-color: rgb(211, 24, 24);
+    transform: scale(1.2);
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+    background-color: rgb(233, 233, 233);
+    background-image: url(../IMG/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.personajes{
+    width: 1300px;
+    height: 400px;
+    margin-left: 33px;
+    margin-top: 80px;
+    display: inline-block;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    border: 2px ridge rgba(255, 60, 60, 0.6);
+}
+.foto img{
+    height: 100%;
+}
+.info{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    padding: 30px;
+    background-color: rgb(225, 13, 13);
+
+    position: relative;
+}
+.info h3{
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+.foot-info{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    height: 200px;
+    width: 1366px;
+    margin: 0 auto;
+    padding: 30px;
+}
+#links{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
