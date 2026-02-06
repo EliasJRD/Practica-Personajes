@@ -99,13 +99,13 @@ main{
 }
 footer{
     background-color: rgb(32, 32, 32);
-    height: 200px;
+    height: 300px;
     width: 1366px;
     margin: 0 auto;
     padding: 30px;
 }
-#links{
-    margin-top: 50px;
-    display: flex;
-    justify-content:space-evenly;
+footer a{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
